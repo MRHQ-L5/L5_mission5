@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import ContentSection from "../components/ContentSection";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
