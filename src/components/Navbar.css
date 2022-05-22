@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    width: 100vw;
+    height: 200px;
+}
+
+.logo {
+    background-image: url("../images/turners-cars-logo-1.png");
+    width: 400px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.btn_container {
+    display: flex;
+    height: 100px;
+    width: 700px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+    border: none;
+    background-color: white;
+}
+
+.number_container {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.number {
+    margin-top: 90px;
+    margin-right: 40px;
+}

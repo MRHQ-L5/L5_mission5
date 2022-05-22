@@ -1,0 +1,38 @@
+.content_container {
+    display: flex;
+    height: 1000px;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.text_container {
+    width: 700px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.content_box {
+    width: 1200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.inside_box {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.box_btn {
+    width: 295px;
+    height: 195px;
+    border-radius: 8px;
+    margin-left: 1px;
+    margin-top: 2px;
+    background-color: blue;
+    color: white;
+}
