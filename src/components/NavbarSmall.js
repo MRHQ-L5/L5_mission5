@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavbarSmall.css";
 
-export default function NavbarSmall(prop) {
+export default function NavbarSmall() {
   return (
     <nav className="navbar_small">
       <div className="logo_small"></div>
