@@ -18,6 +18,7 @@ const ChatBot = ({ createWebChatInstance }) => {
     };
 
     createWebChatInstance(webChatOptions);
+    // eslint-disable-next-line
   }, []);
 
   return (
