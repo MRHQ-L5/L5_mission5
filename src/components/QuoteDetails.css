@@ -1,0 +1,91 @@
+.insurance_purchase_section, .retrieve-quote_section, .your_details_inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insurance_purchase_container {
+    width: 1200px;
+    height: 350px;
+    background-color: pink;
+    margin-top: 100px;
+}
+
+.progress_tracker {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tracker_box_1 {
+    background-color: #0076BE;
+}
+
+.tracker_box_2, .tracker_box_3 {
+    background-color: #F5F5F5;
+}
+
+.tracker_box {
+    width: 400px;
+    height: 100px;
+}
+
+.progress_bar {
+    width: 1200px;
+    height: 25px;
+    background-color: green;
+    margin-bottom: 50px;
+}
+
+.quote_number_container {
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between
+}
+
+.quote_number {
+    width: 300px;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.retrieve-quote_container {
+    width: 1200px;
+    height: 500px;
+    background-color: lightblue;
+    border-top: 5px solid black;
+    display: flex;
+}
+
+.retrieve-quote_left, .retrieve-quote_right {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.your_details_heading {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.your_details_section {
+    display: flex;
+    justify-content: center;
+}
+
+.your_details_heading {
+    width: 1200px;
+    margin-bottom: 25px;    
+}
+
+.your_details_container {
+    width: 1200px;
+    height: 700px;
+    background-color: yellow;
+    border-top: 5px solid black;
+}
