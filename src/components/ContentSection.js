@@ -19,44 +19,51 @@ export default function ContentSection() {
       </div>
       <div>
         <div className="content_box">
-          <div className="inside_box">
+          <div className="box_outer_btn">
             <button className="box_btn">Buy a car</button>
           </div>
           <div className="inside_box">
-            <h3>Buy Now</h3>
-            <p>Purchase directly from our site in branch, on the spot!</p>
+            <div className="inside_line">
+              <h3>Buy Now</h3>
+              <p>Purchase directly from our site in branch, on the spot! </p>
+            </div>
           </div>
           <div className="inside_box">
-            <h3>Online auctions</h3>
-            <p>
-              These are either held exclusively on our website or in partnership
-              with Trade me
-            </p>
+            <div className="inside_line">
+              <h3>Online auctions</h3>
+              <p> These are either held exclusively on our website or in partnership
+                  with Trade me
+              </p>
+            </div>
           </div>
-          <div className="inside_box">
+          <div className="outer_box">
             <h3>Live auction</h3>
             <p>You can you this online or come into the branch</p>
           </div>
         </div>
         <div className="content_box">
-          <div className="inside_box">
+          <div className="box_outer_btn">
             <button className="box_btn">Sell a car</button>
           </div>
           <div className="inside_box">
-            <h3>Turners CashNow</h3>
-            <p>
-              Get and offer on the spot, and you’ll have money in your bank
-              account within 48 hours.
-            </p>
+            <div className="inside_line">
+              <h3>Turners CashNow</h3>
+              <p>
+                Get and offer on the spot, and you’ll have money in your bank
+                account within 48 hours.
+              </p>
+            </div>
           </div>
           <div className="inside_box">
-            <h3>Trade-in</h3>
-            <p>
-              Use your old car to help buy your next car. We can even finance
-              the difference.
-            </p>
+            <div className="inside_line">
+              <h3>Trade-in</h3>
+              <p>
+                Use your old car to help buy your next car. We can even finance
+                the difference.
+              </p>
+            </div>
           </div>
-          <div className="inside_box">
+          <div className="outer_box">
             <h3>Sell by Auction</h3>
             <p>
               Hassel-free. We will do the hard work for you. Let the markey
@@ -65,18 +72,22 @@ export default function ContentSection() {
           </div>
         </div>
         <div className="content_box">
-          <div className="inside_box">
+          <div className="box_outer_btn">
             <button className="box_btn">Get car insurance</button>
           </div>
           <div className="inside_box">
-            <h3>Get a free quote</h3>
-            <p>Get a free quote in 2 minutes. It’s on us!</p>
+            <div className="inside_line">
+              <h3>Get a free quote</h3>
+              <p>Get a free quote in 2 minutes. It's on us!</p>
+            </div>
           </div>
           <div className="inside_box">
-            <h3>Do it all online</h3>
-            <p>You can buy insurance all online, at your pace.</p>
+            <div className="inside_line">
+              <h3>Do it all online</h3>
+              <p>You can buy insurance all online, at your pace.</p>
+            </div>
           </div>
-          <div className="inside_box">
+          <div className="outer_box">
             <h3>Bought your car with us?</h3>
             <p>Get an insurance discount if you bought your car with us.</p>
           </div>

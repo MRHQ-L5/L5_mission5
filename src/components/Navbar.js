@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { TelephoneFill } from "react-bootstrap-icons";
 
 export default function Navbar() {
   return (
@@ -13,6 +14,7 @@ export default function Navbar() {
         <button className="btn">Help</button>
       </div>
       <div className="number_container">
+        <TelephoneFill className="phone" size={18} color= '#0076BE'/>
         <div className="number">0800 887 637</div>
       </div>
     </nav>
