@@ -1,7 +1,10 @@
 import React from "react";
 import "./InsuranceContent.css";
+import { useNavigate } from "react-router-dom";
 
 export default function InsuranceContent() {
+  let navigate = useNavigate();
+
   return (
     <>
       <section className="insurance_section">
@@ -12,7 +15,7 @@ export default function InsuranceContent() {
             <button className="free_quote_btn">
               Get a free quote in 2 minutes
             </button>
-            <button className="buy_quote_btn">Buy your quote</button>
+            <button className="buy_quote_btn" onClick={() => navigate("/QuoteDetails")}>Buy your quote</button>
           </div>
           <div className="insurance_container_right">
             <div className="island_container">
