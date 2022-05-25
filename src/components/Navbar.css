@@ -17,7 +17,7 @@
   background-size: cover;
 }
 
-.btn_container {
+.navbar_btn_container {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -11,7 +11,7 @@ export default function Navbar() {
       <a href={`/`} > 
         <div className="logo"></div>
       </a>
-      <div className="btn_container">
+      <div className="navbar_btn_container">
         <button className="btn" onClick={() => navigate("/UnderConstruction")}>Buy a car</button>
         <button className="btn" onClick={() => navigate("/UnderConstruction")}>Sell your car</button>
         <button className="btn" onClick={() => navigate("/UnderConstruction")}>Finance</button>
