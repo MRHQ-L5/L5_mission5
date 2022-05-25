@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { withWebChat } from "@ibm-watson/assistant-web-chat-react";
 
 const ChatBot = ({ createWebChatInstance }) => {
-  useEffect(({ createWebChatInstance }) => {
+  useEffect(() => {
     function onWebChatLoad(instance) {
       instance.render();
     }
