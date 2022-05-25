@@ -1,17 +1,22 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import { TelephoneFill } from "react-bootstrap-icons";
 
 export default function Navbar() {
+  let navigate = useNavigate();
+
   return (
     <nav className="navbar">
-      <div className="logo"></div>
+      <a href={`/`} > 
+        <div className="logo"></div>
+      </a>
       <div className="btn_container">
-        <button className="btn">Buy a car</button>
-        <button className="btn">Sell your car</button>
-        <button className="btn">Finance</button>
-        <button className="btn">Insurance</button>
-        <button className="btn">Help</button>
+        <button className="btn" onClick={() => navigate("/UnderConstruction")}>Buy a car</button>
+        <button className="btn" onClick={() => navigate("/UnderConstruction")}>Sell your car</button>
+        <button className="btn" onClick={() => navigate("/UnderConstruction")}>Finance</button>
+        <button className="btn" onClick={() => navigate("/Insurance")}>Insurance</button>
+        <button className="btn" onClick={() => navigate("/UnderConstruction")}>Help</button>
       </div>
       <div className="number_container">
         <TelephoneFill className="phone" size={18} color= '#0076BE'/>

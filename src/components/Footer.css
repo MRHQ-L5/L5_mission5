@@ -1,52 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 .footer_section {
-    width: 100vw;
-    height: 200px;
-    background-color: #B71234;
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    align-items: center;
+  height: 200px;
+  background-color: #B71234;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  align-items: center;
 }
 
 .footer_text {
-    margin-right: 500px;
-    color: white;
+  color: white;
+  margin-right: 15%;
 }
 
 .footer_images {
-    display: flex;
-    width: 300px;
-    height: 50px;
-    justify-content: space-around;
-    margin-right: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 24%;
+  width: 11%;
 }
 
 .footer_home {
-    background-image: url('../images/Home.png');
-    width: 36px;
-    height: 36px;
+  background-image: url('../images/Home.png');
+  width: 36px;
+  height: 36px;
 }
 
 .footer_facebook {
-    background-image: url('../images/Facebook.png');
-    width: 30px;
-    height: 30px;
+  background-image: url('../images/Facebook.png');
+  width: 32px;
+  height: 30px;
 }
 
 .footer_email {
-    background-image: url('../images/Mail.png');
-    width: 36px;
-    height: 36px;
+  background-image: url('../images/Mail.png');
+  width: 36px;
+  height: 36px;
 }
 
 .footer_search {
-    background-image: url('../images/Search.png');
-    width: 30px;
-    height: 30px;
+  background-image: url('../images/Search.png');
+  width: 30px;
+  height: 30px;
 }
 
 .footer_instagram {
-    background-image: url('../images/Instagram.png');
-    width: 36px;
-    height: 36px;
+  background-image: url('../images/Instagram.png');
+  width: 36px;
+  height: 36px;
+}
+
+.footer_ptag {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
 }
