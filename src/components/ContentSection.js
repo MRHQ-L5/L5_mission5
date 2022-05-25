@@ -24,21 +24,21 @@ export default function ContentSection() {
           </div>
           <div className="inside_box">
             <div className="inside_line">
-              <h3>Buy Now</h3>
-              <p>Purchase directly from our site in branch, on the spot! </p>
+              <h3 className="h3tag_in_boxes">Buy Now</h3>
+              <p className="ptag_in_boxes">Purchase directly from our <br/>site in branch, on the spot! </p>
             </div>
           </div>
           <div className="inside_box">
             <div className="inside_line">
-              <h3>Online auctions</h3>
-              <p> These are either held exclusively on our website or in partnership
+              <h3 className="h3tag_in_boxes">Online auctions</h3>
+              <p className="ptag_in_boxes"> These are either held exclusively on our <br/>website or in partnership
                   with Trade me
               </p>
             </div>
           </div>
           <div className="outer_box">
-            <h3>Live auction</h3>
-            <p>You can you this online or come into the branch</p>
+            <h3 className="h3tag_in_boxes">Live auction</h3>
+            <p className="ptag_in_boxes">You can you this online or <br/>come into the branch</p>
           </div>
         </div>
         <div className="content_box">
@@ -47,27 +47,27 @@ export default function ContentSection() {
           </div>
           <div className="inside_box">
             <div className="inside_line">
-              <h3>Turners CashNow</h3>
-              <p>
-                Get and offer on the spot, and you’ll have money in your bank
+              <h3 className="h3tag_in_boxes">Turners CashNow</h3>
+              <p className="ptag_in_boxes">
+                Get and offer on the spot, and you’ll have <br/>money in your bank
                 account within 48 hours.
               </p>
             </div>
           </div>
           <div className="inside_box">
             <div className="inside_line">
-              <h3>Trade-in</h3>
-              <p>
-                Use your old car to help buy your next car. We can even finance
+              <h3 className="h3tag_in_boxes">Trade-in</h3>
+              <p className="ptag_in_boxes">
+                Use your old car to help buy your next car. <br/>We can even finance
                 the difference.
               </p>
             </div>
           </div>
           <div className="outer_box">
-            <h3>Sell by Auction</h3>
-            <p>
-              Hassel-free. We will do the hard work for you. Let the markey
-              decide what your car is worth
+            <h3 className="h3tag_in_boxes">Sell by Auction</h3>
+            <p className="ptag_in_boxes">
+              Hassel-free. <br/>We will do the hard work for you. <br/>Let the markey
+              decide what your car is worth.
             </p>
           </div>
         </div>
@@ -77,19 +77,19 @@ export default function ContentSection() {
           </div>
           <div className="inside_box">
             <div className="inside_line">
-              <h3>Get a free quote</h3>
-              <p>Get a free quote in 2 minutes. It's on us!</p>
+              <h3 className="h3tag_in_boxes">Get a free quote</h3>
+              <p className="ptag_in_boxes">Get a free quote in 2 minutes. <br/>It's on us!</p>
             </div>
           </div>
           <div className="inside_box">
             <div className="inside_line">
-              <h3>Do it all online</h3>
-              <p>You can buy insurance all online, at your pace.</p>
+              <h3 className="h3tag_in_boxes">Do it all online</h3>
+              <p className="ptag_in_boxes">You can buy insurance all online, at your pace.</p>
             </div>
           </div>
           <div className="outer_box">
-            <h3>Bought your car with us?</h3>
-            <p>Get an insurance discount if you bought your car with us.</p>
+            <h3 className="h3tag_in_boxes">Bought your car with us?</h3>
+            <p className="ptag_in_boxes">Get an insurance discount <br/>if you bought your car with us.</p>
           </div>
         </div>
       </div>
